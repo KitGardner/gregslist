@@ -6,7 +6,7 @@ function _draw() {
   let cars = store.State.cars;
   let template = "";
   cars.forEach(car => (template += car.Template));
-  document.getElementById("cars").innerHTML = template;
+  document.getElementById("items").innerHTML = template;
   console.log(cars);
 }
 
