@@ -18,8 +18,8 @@ export default class Job {
                 <div class="card-subtitle">For ${this.hours} hours</div>
                 <p class="card-text">${this.description}</p>
             </div>
-            <button class="btn btn-info" onclick="app.carsController.editCar('${this._id}')">Edit</button>
-            <button class="btn btn-danger" onclick="app.carsController.deleteCar('${this._id}')">Delete</button>
+            <button class="btn btn-info" onclick="app.jobsController.editJob('${this._id}')">Edit</button>
+            <button class="btn btn-danger" onclick="app.jobsController.deleteJob('${this._id}')">Delete</button>
         </div>
      </div>
     `;

@@ -21,8 +21,8 @@ export default class House {
                 <div class="card-subtitle">Price: $${this.price}</div>
                 <p class="card-text">${this.description}</p>
             </div>
-            <button class="btn btn-info" onclick="app.carsController.editCar('${this._id}')">Edit</button>
-            <button class="btn btn-danger" onclick="app.carsController.deleteCar('${this._id}')">Delete</button>
+            <button class="btn btn-info" onclick="app.housesController.editHouse('${this._id}')">Edit</button>
+            <button class="btn btn-danger" onclick="app.housesController.deleteHouse('${this._id}')">Delete</button>
         </div>
      </div>
     `;
